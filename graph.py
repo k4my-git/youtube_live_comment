@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 fname = input("insert ID >>") + ".csv"
+word = input("insert Word >>")
+interval = int(input("insert interval >>"))
 
 with open(fname) as f:
     reader = csv.reader(f)
@@ -18,8 +20,6 @@ def seconds(times):
     return second
 
 
-interval = 60
-
 last = l[-1][0]
 cut_time = seconds(last) // interval
 
@@ -31,7 +31,7 @@ count = 0
 for i in range(cut_time):
     for lists in l:
         if seconds(lists[0]) >= interval*i and seconds(lists[0]) < interval*(i+1):
-            if "草" in lists[1]:
+            if word in lists[1]:
                 count += 1
     y.append(count)
     count = 0
