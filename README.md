@@ -13,7 +13,7 @@ This file takes the chat comments from YoutubeLive, stats certain words, and gra
 2. graph.py inputs the ID of the video from which the comment was taken, and displays a graph showing which words are posted how many times in how many seconds.<br>
    graph.pyは、コメントが投稿された動画のIDを入力し、どの単語が何秒に何回投稿されたかをグラフで表示します。
 
-## ScreenShot
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/65527834/132479897-14df7a2c-2548-4c76-b7dd-91767686c82e.png)
 
