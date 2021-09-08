@@ -3,7 +3,7 @@
 This file takes the chat comments from YoutubeLive, stats certain words, and graphs them so that you can visualize the highlighted areas.
 このファイルは、YoutubeLiveのチャットコメントを取り込み、特定の単語を統計して、ハイライトされた部分を視覚化できるようにグラフ化したものです。
 
-##Usage
+#Usage
 
 1. Run main.py and enter the video ID in Input.
    A CSV file with the comments will be created.
