@@ -10,10 +10,11 @@ This file takes the chat comments from YoutubeLive, stats certain words, and gra
    main.pyを実行し、Inputに動画IDを入力します。<br>
    コメントの入ったCSVファイルが作成されます。
 
-2. graph.py inputs the ID of the video from which the comment was taken, and displays a graph showing which words are posted how many times in how many seconds.<br>
-   graph.pyは、コメントが投稿された動画のIDを入力し、どの単語が何秒に何回投稿されたかをグラフで表示します。
+2. graph.py takes the comments retrieved in main.py, and uses specific words to extract data and display a graph and ranking.<br>
+   graph.pyは、main.pyで取得したコメントを、特定の単語でデータを取りグラフとランキングを表示します。
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/65527834/132479897-14df7a2c-2548-4c76-b7dd-91767686c82e.png)
+![image](https://user-images.githubusercontent.com/65527834/133158967-c0691473-8a9a-4afa-8adf-3dd632b8536b.png)
+
 
