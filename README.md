@@ -5,12 +5,14 @@ This file takes the chat comments from YoutubeLive, stats certain words, and gra
 
 ## Usage
 
-1. Run main.py and enter the video ID in Input.<br>
+1. main.py<br>
+   Run main.py and enter the video ID in Input.<br>
    A CSV file with the comments will be created.<br>
    main.pyを実行し、Inputに動画IDを入力します。<br>
    コメントの入ったCSVファイルが作成されます。
 
-2. graph.py takes the comments retrieved in main.py, and uses specific words to extract data and display a graph and ranking.<br>
+2. graph.py<br>
+   graph.py takes the comments retrieved in main.py, and uses specific words to extract data and display a graph and ranking.<br>
    graph.pyは、main.pyで取得したコメントを、特定の単語でデータを取りグラフとランキングを表示します。
 
 ## Screenshots
